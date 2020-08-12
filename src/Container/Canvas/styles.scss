@@ -1,0 +1,27 @@
+.canvas-container{
+  position: relative;
+
+  .options{
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    height: 40px;
+    background: beige;
+    width: 100%;
+    
+  }
+
+  .canvas{
+    &.pen{
+      &:hover{
+        cursor: url("https://i.ibb.co/7VF7KZN/pencil.png") 16 25, default ;
+
+      }
+    }
+    &.pen{
+      &:eraser{
+        cursor: url("https://i.ibb.co/JnTDTQd/p-blank.png") 16 25, default ;
+      }
+    }
+  }
+}

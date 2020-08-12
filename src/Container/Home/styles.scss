@@ -1,0 +1,12 @@
+.home{
+  padding: 20px;
+
+  .canvas-container{
+    margin-right: 10px;
+
+    .canvas-image{
+      height: 250px;
+      width: calc(30% - 10px);
+    }
+  }
+}
